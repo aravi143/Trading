@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.contain {
+    display: flex;
+    width: 100%;
+}
+aside {
+    width: 5%;
+    border: 1px solid gray;
+    height: 100%;
+    padding: 20px;
+}
+.side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.side-icon {
+    color: gray;
+    margin: 20px 0;
+    font-size: 24px;
+}
+.content {
+    width: 70%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.account {
+    font-size: 20px;
+}
+.greet{
+    display: flex;
+    align-items: center;
+}
+.finance {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(128, 128, 128, 0.399);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: auto;
+    align-items: center;
+    padding: 20px;
+}
+.set-b {
+    display: flex;
+    align-items: center;
+    line-height: 5px;
+    font-size: 15px;
+    padding: 10px;
+}
+.set-b p {
+    color: gray;
+}
+.set-b i {
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.card-info {
+    width: 300px;
+    padding: 15px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 10px;
+    background: linear-gradient(yellow, rgba(255, 166, 0, 0.632));
+    border-radius: 10px;
+    /* border: 1px solid red; */
+}
+.R-side {
+    background-color: rgba(119, 136, 153, 0.129);
+    width: 30%;
+}
+.crypto-detail{
+    line-height: 10px;
+    padding: 20px;   
+}
+.crypto-icons {
+    font-size: 20px;
+}
+.crypto-icons i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+}
+.crypto-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px 10px 50px 10px;
+    line-height: 5px;
+    color: aliceblue;
+}
+.action {
+    display: flex;
+    justify-content: space-around;
+}
+.action-icons {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: -25px;
+}
